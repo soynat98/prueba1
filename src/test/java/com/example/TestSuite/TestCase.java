@@ -1,7 +1,6 @@
 package com.example.TestSuite;
 
 import java.util.regex.Pattern;
-import java.util.List;
 import java.util.concurrent.TimeUnit;
 import org.junit.*;
 import static org.junit.Assert.*;
