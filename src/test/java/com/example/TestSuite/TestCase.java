@@ -1,4 +1,4 @@
-package com.example.UntitledTestSuite;
+package com.example.TestSuite;
 
 import java.util.regex.Pattern;
 import java.util.List;
@@ -33,7 +33,7 @@ public class TestCase {
 
   @Test
   public void testTestCase() throws Exception {
-	  	driver.get("http://localhost:3000/");
+	    driver.get("https://mern-crud.herokuapp.com/");
 	    driver.findElement(By.xpath("//div[@id='root']/div/div[2]/button")).click();
 	    driver.findElement(By.name("name")).click();
 	    driver.findElement(By.name("name")).clear();
